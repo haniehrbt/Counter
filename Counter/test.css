@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#number{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+.container button{
+    width: 100px;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: inherit;
+    color: #fff;
+    opacity: 0.5;
+}
+.container button:first-of-type{
+    border-color: red;
+}
+.container button:last-of-type{
+    border-color: green;
+}
+button:hover{
+    opacity: 1;
+    color: rgb(255, 186, 47);
+}
+
